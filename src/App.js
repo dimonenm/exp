@@ -1,8 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from './containers/container/Container';
+import Header from './containers/header/Header';
+import Main from './containers/main/Main';
+
 
 function App() {
-  return (<p>hello world</p>);
+  return (
+    <Container>
+      <Header />
+      <Main />
+    </Container>
+    );
 }
 
 export default App;
