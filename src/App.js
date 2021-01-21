@@ -5,6 +5,13 @@ import Main from './containers/main/Main';
 
 
 function App() {
+  const db = {
+    'year2021': [{
+      'id': '1',
+      
+    }]
+  }
+  console.log(JSON.stringify(db));
   return (
     <Container>
       <Header />
