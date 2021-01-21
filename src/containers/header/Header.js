@@ -8,7 +8,7 @@ import BtnSearch from '../../components/btn-search/BtnSearch';
 const Header = () => (
     <div className="header">
         <section className="header__menu">
-            <div className="header__menu-title">Отдел криминалистических экспертих2</div>
+            <div className="header__menu-title">Отдел криминалистических экспертих</div>
             <div className="header__menu-buttons">
                 <BtnAdd />
                 <BtnList />
