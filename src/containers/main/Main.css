@@ -80,10 +80,12 @@
 
 .main__item-unit{
     height: 40px;
+    line-height: 13px;
 }
 
 .main__item-byMaterial{
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .main__item-state{
@@ -106,9 +108,11 @@
     width: 50px;
 
     border: 1px solid #000000;
+
+    cursor: pointer;
 }
 
-.main__item-state-ready{
+.main__item-state-item-active{
     background-color: #81A0A7;
 }
 

@@ -1,13 +1,30 @@
 import React from 'react';
-import BtnCreateNewExp from '../../components/btn-create-new-exp/BtnCreateNewExp';
+import ListItemBtnCreateNewExp from '../../components/btn-create-new-exp/ListItemBtnCreateNewExp';
+import ListItemViewExp from '../../components/listItemViewExp/ListItemViewExp';
 import "./Main.css";
 
-const Main = () => (
+const Main = ({ db }) => {
+
+  const db2 = [];
+
+  for (let index = db.year2021.length-1; index >= 0 ; index--) {
+    db2.push(db.year2021[index]);    
+  }
+
+  return (
     <div className="main">
-        <div className="main__list">
-            <BtnCreateNewExp />
-        </div>
+      <div className="main__list">
+        <ListItemBtnCreateNewExp />
+        {
+          
+          db2.map(item => {
+            // console.log(item);
+            return (<ListItemViewExp key={item.id} exp={item} />);
+          })
+        }
+      </div>
     </div>
-);
+  );
+};
 
 export default Main;
