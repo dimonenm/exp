@@ -76,7 +76,6 @@ body {
 }
 
 .main {
-
     min-height: auto;
     /* height: 100%; */
     /* display: flex; */
@@ -87,7 +86,7 @@ body {
     background-color: #263238;
 }
 
-.main__list{
+.main__list {
     display: grid;
 
     grid-template-columns: repeat(7, 200px);
@@ -147,24 +146,24 @@ body {
     line-height: 24px;
 }
 
-.main__item-date, 
+.main__item-date,
 .main__item-agency,
-.main__item-byMaterial 
-.main__item-type, 
+.main__item-byMaterial .main__item-type,
 .main__item-executor,
-.main__item-state{
+.main__item-state {
     height: 20px;
 }
 
-.main__item-unit{
+.main__item-unit {
     height: 40px;
 }
 
-.main__item-byMaterial{
+.main__item-byMaterial {
     font-size: 13px;
+    font-weight: bold;
 }
 
-.main__item-state{
+.main__item-state {
     display: flex;
     width: 150px;
 
@@ -176,7 +175,7 @@ body {
     text-align: center;
 }
 
-.main__item-state-item{
+.main__item-state-item {
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -186,8 +185,8 @@ body {
     border: 1px solid #000000;
 }
 
-.main__item-state-ready{
-    background-color: #81A0A7;
+.main__item-state-ready {
+    background-color: #81a0a7;
 }
 
 .btn-create-new-exp {
