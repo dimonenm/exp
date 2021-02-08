@@ -39,7 +39,7 @@ const ListItemViewExp = ({ exp }) => {
         <div className="main__item-type">{category_of_research}</div>
         <div className="main__item-executor">{surname_of_executor}</div>
         <div className="main__item-state">
-          <div className="main__item-state-item main__item-state-item-active main__item-state-ready">готова к выдачи</div>
+          <div className="main__item-state-item main__item-state-ready main__item-state-item-active">готова к выдачи</div>
           <div className="main__item-state-item main__item-state-on-hands">выдана нарочно</div>
           <div className="main__item-state-item main__item-state-on-post">отп-на почтой</div>
         </div>

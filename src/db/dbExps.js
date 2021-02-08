@@ -27,7 +27,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "2",
@@ -53,7 +54,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "3",
@@ -79,7 +81,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "4",
@@ -105,7 +108,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "5",
@@ -131,7 +135,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "6",
@@ -157,7 +162,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "7",
@@ -183,7 +189,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "8",
@@ -209,7 +216,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611322831998",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "9",
@@ -235,7 +243,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": null,
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "10",
@@ -261,7 +270,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "11",
@@ -287,7 +297,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "12",
@@ -313,7 +324,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "13",
@@ -339,7 +351,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "14",
@@ -365,7 +378,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "15",
@@ -391,7 +405,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "16",
@@ -417,7 +432,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "17",
@@ -443,7 +459,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "18",
@@ -469,7 +486,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "19",
@@ -495,7 +513,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       },
       {
         "id": "20",
@@ -521,7 +540,8 @@ const db = () => {
         "result_of_expertise": "НПВ",
         "end_date_of_expertise": "1611322830998",
         "date_of_execution": "1611599829698",
-        "date_of_outcome": "1611322832998"
+        "date_of_outcome": "1611322832998",
+        "type_of_outcome": "готова к выдачи"//выдана нарочно, отправлена почтой
       }
     ]
   }
