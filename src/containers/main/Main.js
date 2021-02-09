@@ -7,8 +7,8 @@ const Main = ({ db }) => {
 
   const db2 = [];
 
-  for (let index = db.year2021.length-1; index >= 0 ; index--) {
-    db2.push(db.year2021[index]);    
+  for (let index = db.year2021.length - 1; index >= 0; index--) {
+    db2.push(db.year2021[index]);
   }
 
   return (
@@ -16,9 +16,7 @@ const Main = ({ db }) => {
       <div className="main__list">
         <ListItemBtnCreateNewExp />
         {
-          
           db2.map(item => {
-            // console.log(item);
             return (<ListItemViewExp key={item.id} exp={item} />);
           })
         }
