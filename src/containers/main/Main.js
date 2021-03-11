@@ -1,6 +1,7 @@
 import React from 'react';
 import ListItemBtnCreateNewExp from '../../components/btn-create-new-exp/ListItemBtnCreateNewExp';
 import ListItemViewExp from '../../components/listItemViewExp/ListItemViewExp';
+import Pagination from '../../components/pagination/Pagination';
 import "./Main.css";
 
 const Main = ({ db }) => {
@@ -11,11 +12,10 @@ const Main = ({ db }) => {
     db2.push(db.year2021[index]);
   }
 
-  const pages = Math.ceil(db2.length / 20);
+  const countOfPages = Math.ceil(db2.length / 20);
   let currentPage = 1;
   let maxNumOfExps = currentPage * 20;
   let minNumOfExps = maxNumOfExps - 19;
-  console.log(minNumOfExps);
 
   return (
     <div className="main">
@@ -29,6 +29,7 @@ const Main = ({ db }) => {
             return null;
           })
         }
+        <Pagination countOfPages={countOfPages} currentPage={currentPage}/>
       </div>
     </div>
   );
