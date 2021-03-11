@@ -11,13 +11,22 @@ const Main = ({ db }) => {
     db2.push(db.year2021[index]);
   }
 
+  const pages = Math.ceil(db2.length / 20);
+  let currentPage = 1;
+  let maxNumOfExps = currentPage * 20;
+  let minNumOfExps = maxNumOfExps - 19;
+  console.log(minNumOfExps);
+
   return (
     <div className="main">
       <div className="main__list">
         <ListItemBtnCreateNewExp />
         {
-          db2.map(item => {
-            return (<ListItemViewExp key={item.id} exp={item} />);
+          db2.map((item, index) => {
+            if (++index >= minNumOfExps && index <= maxNumOfExps) {
+              return (<ListItemViewExp key={item.id} exp={item} />);
+            }
+            return null;
           })
         }
       </div>
